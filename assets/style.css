@@ -1,0 +1,93 @@
+body {
+
+}
+header { 
+}
+.title {
+    font-family: fantasy;
+    font-size: 140%;
+    background: linear-gradient(to bottom right, #4CAF50, #1E5F1E);
+    text-align: left;
+    margin: 10;
+    padding: 10px 0;
+    display: flex;
+    align-items: left;
+}   
+
+
+#AboutMe {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.buttons {
+    position: absolute;
+    bottom: 87%; 
+    right: 20px;
+    transform: translateY(0%);
+    transform: translateX(0%)
+}
+
+.buttons ul {
+    padding: 0;
+}
+
+.buttons li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.buttons a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.buttons a:hover {
+    color: lightgray;
+}
+
+h2 {
+    text-align: center;
+
+}
+.reel {
+    position: relative;
+    width: 150%;
+    max-width: 1600px;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.reel iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .reel {
+        padding-bottom: 75%;
+    }
+}
+.contact-link {
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .contact-link:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 10px rgba(0, 123, 255, 0.8);
+  }
+
+footer {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 60%;
+}
+
