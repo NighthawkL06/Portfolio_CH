@@ -1,17 +1,22 @@
 body {
-
+margin: 0px;
 }
-.title {
+.navbar {
     font-family: fantasy;
     font-size: 140%;
     background: linear-gradient(to bottom right, #4CAF50, #1E5F1E);
-    text-align: left;
-    margin: 10;
-    padding: 10px 0;
+    /* text-align: left; */
+    /* margin: 10; */
+    padding: 5px;
     display: flex;
-    align-items: left;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: left; */
 }   
 
+.h1header {
+    margin: 0;
+}
 
 #AboutMe {
     text-align: center;
@@ -19,22 +24,29 @@ body {
 
 }
 
+.ulstyling{
+    display: flex;
+    gap: 10px;
+    padding: 0 10px;
+
+}
+
 
 .buttons {
-    position: absolute;
+    /* position: absolute;
     bottom: 87%; 
     right: 20px;
     transform: translateY(0%);
-    transform: translateX(0%)
-}
+    transform: translateX(0%) */
+} 
 
 .buttons ul {
-    padding: 0;
+    /* padding: 0; */
 }
 
 .buttons li {
     display: inline-block;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .buttons a {
